@@ -14,20 +14,20 @@ datasource db {
 model old_person {
   dni Int @id
   name String
-  lastname String
+  email String
   password String
 }
 
 model f_member {
   dni Int @id
   name String
-  lastname String
+  email String
   password String
 }
 
 model nurse {
   dni Int @id
   name String
-  lastname String
+  email String
   password String
 }

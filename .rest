@@ -1,0 +1,17 @@
+GET   http://localhost:3000/api/loginUser HTTP/1.1
+Content-Type: application/json
+
+{
+    "dni": 46756340,
+    "pass": "123"
+}
+
+//{
+//    "name": "Benjamin",
+//    "dni": 46756340,
+//    "email": "benjamin@exmaple.com",
+//    "confirm": "123",
+//    "pass": "123",
+//    "rol": "Enfermero"
+//} 
+
